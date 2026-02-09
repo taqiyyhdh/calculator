@@ -7,35 +7,35 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
 
-  <body>
-    <div class="calculator">
-      <div class="display-container">
-        <div class="display">
-          <div>0</div>
+  <body class="min-h-screen flex items-center justify-center p-4">
+    <div class="p-6 w-full max-w-xs border-2">
+      <div class="mb-6">
+        <div class="p-6 min-h-24 flex justify-end">
+          <div class="text-right">0</div>
         </div>
       </div>
 
-      <div class="buttons">
-        <button>C</button>
-        <button>DEL</button>
-        <button>÷</button>
+      <div class="grid grid-cols-4 gap-3">
+        <button class="col-span-2 py-4">C</button>
+        <button class="py-4">DEL</button>
+        <button class="py-4">÷</button>
 
-        <button>7</button>
-        <button>8</button>
-        <button>9</button>
-        <button>×</button>
+        <button class="py-4">7</button>
+        <button class="py-4">8</button>
+        <button class="py-4">9</button>
+        <button class="py-4">×</button>
 
-        <button>4</button>
-        <button>5</button>
-        <button>6</button>
-        <button>−</button>
+        <button class="py-4">4</button>
+        <button class="py-4">5</button>
+        <button class="py-4">6</button>
+        <button class="py-4">−</button>
 
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button>+</button>
+        <button class="py-4">1</button>
+        <button class="py-4">2</button>
+        <button class="py-4">3</button>
+        <button class="py-4">+</button>
 
-        <button>0</button>
+        <button class="col-span-2 py-4">0</button>
         <button>.</button>
         <button>=</button>
       </div>
