@@ -17,28 +17,28 @@
       </div>
 
       <div class="grid grid-cols-4 gap-3">
-        <button onclick="clearDisplay()" class="col-span-2 bg-pink-100 text-amber-950 font-semibold py-4 rounded-xl">C</button>
-        <button onclick="deleteLast()" class="bg-pink-100 text-amber-950 font-semibold py-4 rounded-xl">DEL</button>
-        <button onclick="appendOperator('/')" class="bg-rose-600 hover:bg-rose-700 text-white font-semibold py-4 rounded-xl">÷</button>
+        <button onclick="clearDisplay()" class="col-span-2 bg-pink-100 text-amber-950 font-semibold py-4 rounded-xl transition-all duration-200 active:scale-90">C</button>
+        <button onclick="deleteLast()" class="bg-pink-100 text-amber-950 font-semibold py-4 rounded-xl transition-all duration-200 active:scale-90">DEL</button>
+        <button onclick="appendOperator('/')" class="bg-rose-600 hover:bg-rose-700 text-white font-semibold py-4 rounded-xl transition-all duration-200 active:scale-90">÷</button>
 
-        <button onclick="appendNumber('7')" class="bg-red-300 hover:bg-red-400 text-amber-950 font-semibold py-4 rounded-xl">7</button>
-        <button onclick="appendNumber('8')" class="bg-red-300 hover:bg-red-400 text-amber-950 font-semibold py-4 rounded-xl">8</button>
-        <button onclick="appendNumber('9')" class="bg-red-300 hover:bg-red-400 text-amber-950 font-semibold py-4 rounded-xl">9</button>
-        <button onclick="appendOperator('*')" class="bg-rose-600 hover:bg-rose-700 text-white font-semibold py-4 rounded-xl">×</button>
+        <button onclick="appendNumber('7')" class="bg-red-300 hover:bg-red-400 text-amber-950 font-semibold py-4 rounded-xl transition-all duration-200 active:scale-90">7</button>
+        <button onclick="appendNumber('8')" class="bg-red-300 hover:bg-red-400 text-amber-950 font-semibold py-4 rounded-xl transition-all duration-200 active:scale-90">8</button>
+        <button onclick="appendNumber('9')" class="bg-red-300 hover:bg-red-400 text-amber-950 font-semibold py-4 rounded-xl transition-all duration-200 active:scale-90">9</button>
+        <button onclick="appendOperator('*')" class="bg-rose-600 hover:bg-rose-700 text-white font-semibold py-4 rounded-xl transition-all duration-200 active:scale-90">×</button>
 
-        <button onclick="appendNumber('4')" class="bg-red-300 hover:bg-red-400 text-amber-950 font-semibold py-4 rounded-xl">4</button>
-        <button onclick="appendNumber('5')" class="bg-red-300 hover:bg-red-400 text-amber-950 font-semibold py-4 rounded-xl">5</button>
-        <button onclick="appendNumber('6')" class="bg-red-300 hover:bg-red-400 text-amber-950 font-semibold py-4 rounded-xl">6</button>
-        <button onclick="appendOperator('-')" class="bg-rose-600 hover:bg-rose-700 text-white font-semibold py-4 rounded-xl">−</button>
+        <button onclick="appendNumber('4')" class="bg-red-300 hover:bg-red-400 text-amber-950 font-semibold py-4 rounded-xl transition-all duration-200 active:scale-90">4</button>
+        <button onclick="appendNumber('5')" class="bg-red-300 hover:bg-red-400 text-amber-950 font-semibold py-4 rounded-xl transition-all duration-200 active:scale-90">5</button>
+        <button onclick="appendNumber('6')" class="bg-red-300 hover:bg-red-400 text-amber-950 font-semibold py-4 rounded-xl transition-all duration-200 active:scale-90">6</button>
+        <button onclick="appendOperator('-')" class="bg-rose-600 hover:bg-rose-700 text-white font-semibold py-4 rounded-xl transition-all duration-200 active:scale-90">−</button>
 
-        <button onclick="appendNumber('1')" class="bg-red-300 hover:bg-red-400 text-amber-950 font-semibold py-4 rounded-xl">1</button>
-        <button onclick="appendNumber('2')" class="bg-red-300 hover:bg-red-400 text-amber-950 font-semibold py-4 rounded-xl">2</button>
-        <button onclick="appendNumber('3')" class="bg-red-300 hover:bg-red-400 text-amber-950 font-semibold py-4 rounded-xl">3</button>
-        <button onclick="appendOperator('+')" class="bg-rose-600 hover:bg-rose-700 text-white font-semibold py-4 rounded-xl">+</button>
+        <button onclick="appendNumber('1')" class="bg-red-300 hover:bg-red-400 text-amber-950 font-semibold py-4 rounded-xl transition-all duration-200 active:scale-90">1</button>
+        <button onclick="appendNumber('2')" class="bg-red-300 hover:bg-red-400 text-amber-950 font-semibold py-4 rounded-xl transition-all duration-200 active:scale-90">2</button>
+        <button onclick="appendNumber('3')" class="bg-red-300 hover:bg-red-400 text-amber-950 font-semibold py-4 rounded-xl transition-all duration-200 active:scale-90">3</button>
+        <button onclick="appendOperator('+')" class="bg-rose-600 hover:bg-rose-700 text-white font-semibold py-4 rounded-xl transition-all duration-200 active:scale-90">+</button>
 
-        <button onclick="appendNumber('0')" class="col-span-2 bg-red-300 hover:bg-red-400 text-amber-950 font-semibold py-4 rounded-xl">0</button>
-        <button onclick="appendNumber('.')" class="bg-red-400 hover:bg-red-500 text-amber-950 font-semibold py-4 rounded-xl">.</button>
-        <button onclick="calculate()" class="bg-red-900 hover:bg-red-600 text-white font-semibold py-4 rounded-xl">=</button>
+        <button onclick="appendNumber('0')" class="col-span-2 bg-red-300 hover:bg-red-400 text-amber-950 font-semibold py-4 rounded-xl transition-all duration-200 active:scale-90">0</button>
+        <button onclick="appendNumber('.')" class="bg-red-400 hover:bg-red-500 text-amber-950 font-semibold py-4 rounded-xl transition-all duration-200 active:scale-90">.</button>
+        <button onclick="calculate()" class="bg-red-900 hover:bg-red-600 text-white font-semibold py-4 rounded-xl transition-all duration-200 active:scale-90">=</button>
       </div>
     </div>
     <script src="script.js"></script>
