@@ -23,9 +23,14 @@ function appendOperator(op) {
     calculate();
   }
   operator = op;
-  previousInput = currentInput + " " + operator;
+  previousInput = currentInput + " " + getOperatorSymbol(op);
   currentInput = "0";
   updateDisplay();
+}
+
+function getOperatorSymbol(op) {
+  const symbols = { "+": "+", "-": "−", "*": "×", "/": "÷" };
+  return symbols[op];
 }
 
 function calculate() {
